@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.header {
+    overflow: hidden;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+}
+.header-right {
+    float:right
+}
+.logo-header {
+    width: 18%;
+    height: auto;
+}
+.header-a {
+    float:left;
+    color: rgb(60,60,60);
+    text-align: center;
+    padding: 12px;
+    padding-top: 14px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+.header input[type=text] {
+    padding:6px;
+    align-items: center;
+    border:none;
+    margin-top: 8px;
+    margin-left: 16px;
+    font-size: 20px;
+}
+.header button {
+    float:right;
+    padding:5px;
+    margin: 8px;
+    font-size: 20px;
+    border: none;
+    background-color: whitesmoke;
+    border:none;
+    cursor: pointer;
+}
