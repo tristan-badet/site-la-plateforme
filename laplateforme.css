@@ -4,6 +4,16 @@
 body {
     margin: 0;
 }
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
 .header {
     overflow: hidden;
     background-color: whitesmoke;
@@ -22,7 +32,7 @@ body {
     text-align: center;
     padding: 12px;
     padding-top: 14px;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     background-color: whitesmoke;
     border-radius: 4px;
@@ -33,13 +43,13 @@ body {
     border:none;
     margin-top: 8px;
     margin-left: 16px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .header button {
     float:right;
     padding:5px;
     margin: 8px;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     background-color: whitesmoke;
     border:none;
@@ -53,6 +63,41 @@ footer {
     color: white;
     font-size: 18px;
     text-align: left;
+}
+.box3 button {
+    background: white;
+    color:rgb(49,49,49);
+    border:none;
+    cursor:pointer;
+    padding:5px;
+    text-align: center;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box4 button {
+    background: #FFA000;
+    color:white;
+    border: none;
+    cursor:pointer;
+    padding:6px;
+    text-align: center;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 18px;
+}
+.box23 button {
+    background:rgb(49,49,49);
+    color:white;
+    padding:5px;
+    cursor:pointer;
+    text-align: center;
+    border-radius: 3px;
+    border-color: white;
+    padding:15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style:solid
 }
 .box1 {
     grid-column: 1;
@@ -182,30 +227,32 @@ footer {
     padding: 8px;
 }
 .temoignage {
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 100px);
     background: #FFA000;
 }
-.texttemoignage {
-    text-align: center;
+.temoignageflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 200px;
     justify-content: center;
-    grid-row: 1;
-    grid-column: 2;
-    color: white;
-}
-.videotemoignageleft {
-    grid-column: 1;
-    grid-row: 2;
-    padding: 20px;
-    margin-left:  50px;
-}
-.videotemoignageright {
-    grid-column: 3;
-    grid-row: 2;
-    padding:20px;
-    margin-right: 50px;
-}
+  }
+    .temoignageflex iframe {
+        margin: 20px;
+        width: 500px;
+        height: 350px;
+    }
+  .temoignage h3 {
+    text-align: center;
+    font-size: 35px;
+    color:white;
+    padding: 30px;
+  }
+  .temoignage p {
+    text-align: center;
+    font-size: 25px;
+    color:white;
+  }
+
 .bannière {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -243,6 +290,7 @@ footer {
   .seformer{
     background: whitesmoke;
     margin: 20px;
+    padding: 20px;
   }
   .seformer h3 {
     font-size: 35px;
@@ -288,6 +336,7 @@ footer {
 .accélérez {
     background: whitesmoke;
     margin: 20px;
+    padding: 20px;
 }
 .accélérezflex {
     display:flex;
@@ -327,4 +376,9 @@ text-align: center;
     text-align: center;
     padding: 15px;
   }
+  .accélérez h3 {
+    font-size: 25px;
+    color: #275FA0;
+    text-align: center;
+}
 
