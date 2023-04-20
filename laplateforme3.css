@@ -1,0 +1,82 @@
+.presentation {
+    background: white;
+    color: black;
+    margin:20px;
+}
+.presentationFlex {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 30px;
+    height: 400px;
+}
+.presentationFlex iframe {
+    width: 415px;
+    height: 65%;
+    border-style: none;
+}
+.presentation h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+.presentation h4 {
+    color: #336699;
+    font-size: large;
+}
+.presentation p {
+    color:#7D8BB8;
+}
+.quiSommesNous {
+    margin: 20px 60px;
+    background: white;
+}
+.quiSommesNousFlex {
+    display:flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+.quiSommesNous h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+.quiSommesNousFlex {
+    text-align: left;
+    color: rgb(146, 125, 125);
+    line-height: 1.5;
+}
+.quiSommesNous p {
+    font-size: 18px;
+    padding: 0px 40px;
+}
+.nosCertifications {
+    margin: 20px 0px;
+    background:#F6F6F6;
+    color: #7D7D91;
+}
+.nosCertificationsFlex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin: 20px;
+    padding: 30px 60px;
+    text-align: left;
+    line-height: 1.5;
+}
+.nosCertificationsFlex img {
+    width: 70%;
+}
+.nosCertifications p {
+    font-size: 20px;
+    padding: 20px;
+}
+.nosCertifications h2 {
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 30px;
+}
