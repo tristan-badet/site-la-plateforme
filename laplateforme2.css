@@ -1,0 +1,113 @@
+.formulaire {
+    background:#1F316B;
+    padding: 20px;
+}
+.formulaireflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+    justify-content: center;
+    margin: 50px 80px;
+  }
+  .formulaireLeft{
+    text-align: left;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+  }
+  .formulaireLeft img {
+    width: 90%;
+  }
+  .formulaireLeft h3 {
+    color:#FF6600;
+    font-size: 25px;
+  }
+  .formulaireRight{
+    background:white;
+    text-align: left;
+    padding:10px 50px;
+    color: #1E6BB5;
+    font-size: 15px;
+  }
+  .formulaireRightFlex1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: left;
+    margin: 30px 15px;
+  }
+  .formulaireRight input{
+    border-color: black;
+    color:black;
+    height: 35px;
+  }
+  .formulaireRight h2 {
+    text-align: center;
+    color:black;
+    font-size: 40px;
+  }
+  .formulaireRightFlex2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: left;
+    margin: 30px 15px;
+  }
+  .formulaireRightFlex2 input {
+    width: 260px;
+  }
+  .formulaireRightFlex3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: left;
+    margin: 30px 15px;
+  }
+  .formulaireRight select {
+    height: 35px;
+    color:black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+.formulaireRight label {
+    text-align: center;
+    color:black;
+    margin-bottom: 15px;
+}
+.formulaireRightFlex4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: left;
+  }
+  .formulaireRightFlex4 label {
+    padding-top: 13px;
+  }
+  .formulaireRight button[type=submit] {
+    color:white;
+    background: #FF6600;
+    border-radius: 16px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-width: 1px;
+  }
+.uneAutreQuestion {
+    color: #275FA0;
+    margin: 30px 250px;
+    display: flex;
+    flex-direction: column;
+}
+.uneAutreQuestion h2 {
+    font-size: 30px;
+}
+.uneAutreQuestion iframe {
+    width: 100% 
+    
+}
+
